@@ -1,0 +1,21 @@
+Web 1.0 -> User can only view the content . eg - like wikipedia.
+
+Web 2.0 -> User can view and add content on the platform. eg - social media apps, e-commerce websites etc.
+           But it is controlled by central server. This means that those who control the application can manipulate data and have full control over it.
+
+
+Web 3.0 -> It is decentralised network .Instead of single server/computer that stores data , all computer have copy of code and data on which the network
+           runs. It is immutable so no one can tamper the data.
+           Node -> Each computer that forms network. Node communicates with one another.
+           e.g -> cryptocurrencies.
+
+
+How Blockchain Works :--
+
+Browser -> Frontend(html/css/js) -> Blockchain(Node/Transaction/Data) -> Smart Contract(Solidity).
+
+Frontend -> Mostly React.
+
+Blockchain -> Public Ledger. Data are stored here. It is immutable.
+
+Smart Contract -> Piece of code written in solidity programming language. Immutable.
