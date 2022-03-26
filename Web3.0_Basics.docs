@@ -17,5 +17,29 @@ Browser -> Frontend(html/css/js) -> Blockchain(Node/Transaction/Data) -> Smart C
 Frontend -> Mostly React.
 
 Blockchain -> Public Ledger. Data are stored here. It is immutable.
-
 Smart Contract -> Piece of code written in solidity programming language. Immutable.
+
+Migrations -> Kind of database but works differently. To be specific it maintains state of application.
+              Also you are migrating your environment from local to blockchain.
+
+    
+Tokens are needed in order to do Transaction in Etherium. Its basically ERC20 tokens.
+We have to follow standard in order to build tokens.
+
+
+Block of Blockchain : -->> 
+
+ 1.It consits of data, hash of previous block and its own hash.
+
+ Hash -> Its like a fingerprint. It identifies a block uniquely.
+
+ When any changes in block happens , hash will also changes. So, technically its different block now.
+ Thats why blockchain is immutable.
+
+ Genesis Block -> First block does not contains any previous hash so its known as genesis block.
+
+ Technique to avoid Tampering of block -> 
+
+ Blockchain uses Proof of Work which takes sometime (in case of bitcoin its 10 minutes) to change hash of all corresponding block after which
+ the block is tampered. Which makes it a lot time consuming and difficult to tamper.
+ Security of blockchain comes from Hashing +  Proof of Work Mechanism.
